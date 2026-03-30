@@ -1,0 +1,32 @@
+# main links
+main:
+  - title: "Home"
+    url: /
+  - title: "Papers"
+    url: /papers/
+  - title: "Program"
+    url: /program/
+  - title: "Submission"
+    url: /submission/
+  - title: "Organisers"
+    url: /contact/
+
+# key dates
+keydates:
+  - title: "Key dates"
+    children:
+    - title: "TBA - Abstract / placeholder"
+    - title: "TBA - Paper submission"
+    - title: "TBA - Notification"
+    - title: "TBA - Workshop ready paper"
+    - title: "TBA - STACOM workshop"
+    - title: "TBA - Proceeding ready paper"
+
+# useful links
+sidelinks:
+  - title: Useful links
+    children:
+    - title: "Previous STACOMs"
+      url: https://stacom.github.io/
+    - title: "Submission portal"
+      url: #

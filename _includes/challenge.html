@@ -1,0 +1,19 @@
+### <a href="{{ include.url }}" target="_blank">{{ include.title }}</a>
+
+{% if include.image %}
+<div style="clear: both">
+    <div style="float: left">
+        <a href="{{ include.image | relative_url }}" class="image-popup">
+            <img src="{{ include.image | relative_url }}" style="width: 200px; margin-right: 1em;">
+        </a>
+    </div>
+    <div>
+        {{ include.description | markdownify }}
+        <p>For more information: <a href="{{ include.url }}" target="_blank">click here</a></p>
+    </div>
+</div>
+{% else %}
+{{ include.description | markdownify }}
+
+For more information: <a href="{{ include.url }}" target="_blank">click here</a>
+{% endif %}

@@ -1,3 +1,32 @@
-The Statistical Atlases and Computational Modeling of the Heart (STACOM) workshop has been running annually at MICCAI since 2010. The 17th edition of STACOM workshop is going to be held in conjunction with the MICCAI 2026 in Abu Dhabi, United Arab Emirates. The STACOM workshop is aiming to create a collaborative forum for young/senior researchers (engineers, biophysicists, mathematicians) and clinicians, working on: statistical analysis of cardiac morphology and dynamics, computational modelling of the heart and fluid dynamics, data/models sharing, personalisation of cardiac electro-mechanical models, quantitative image analysis and translational methods into clinical practice.
+# STACOM 2026
 
-_Coming soon...._
+This is source code repository for the STACOM 2025 Workshop. If you want to see the website, please go to https://stacom.github.io/stacom2026/.
+
+## Webmaster
+
+To maintain the website, please follow these steps:
+
+1. Make sure you have installed Jekyll on your local system; see: https://jekyllrb.com/
+
+2. Clone the gh-pages branch: 
+```
+git clone -b gh-pages git@github.com:STACOM/stacom2026.git
+```
+
+3. Follow Jekyll guidelines to build static pages: https://jekyllrb.com/docs/
+
+4. Commit & push to gh-pages; wait a couple of minutes before GitHub build the page.
+
+## Tips for development
+
+* To run local Jekyll with live update
+
+```
+jekyll serve -l
+```
+
+* For macos, you may need to prepend with
+
+```
+bundle exec jekyll server -l
+```
