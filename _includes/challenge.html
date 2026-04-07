@@ -9,11 +9,11 @@
     </div>
     <div>
         {{ include.description | markdownify }}
-        <p>For more information: <a href="{{ include.url }}" target="_blank">click here</a></p>
+        <p>For more information to join the challenge: <a href="{{ include.url }}" target="_blank">click here</a></p>
     </div>
 </div>
 {% else %}
 {{ include.description | markdownify }}
 
-For more information: <a href="{{ include.url }}" target="_blank">click here</a>
+For more information to join the challenge: <a href="{{ include.url }}" target="_blank">click here</a>
 {% endif %}
