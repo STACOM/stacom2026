@@ -6,7 +6,7 @@ author: stacom
 classes:
   - wide
 header:
-  image: /images/abu_dhabi_02.jpg
+  image: /images/strasbourg_02.jpg
 ---
 
 ## Regular papers

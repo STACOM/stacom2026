@@ -5,7 +5,7 @@ minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark",
 locale                   : "en-US"
 title                    : "STACOM 2026"
 title_separator          : "|"
-subtitle                 : "4 October 2026, Abu Dhabi, United Arab Emirates"
+subtitle                 : "1 October 2026, Strasbourg, France"
 name                     : "STACOM"
 description              : "The 17th Statistical Atlases and Computational Modelling of the Heart Workshop"
 url                      : "https://stacom.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"

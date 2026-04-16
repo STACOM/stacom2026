@@ -6,7 +6,7 @@ classes:
   - wide
 permalink: /program/
 header:
-  image: /images/abu_dhabi_03.jpg
+  image: /images/strasbourg_03.jpg
 ---
 
 ## Regular papers

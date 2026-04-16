@@ -6,7 +6,7 @@ author: stacom
 classes:
   - wide
 header:
-  image: /images/abu_dhabi_04.jpg
+  image: /images/strasbourg_04.jpg
 ---
 
 We accept regular papers describing new methods in the following (not limited) topics:

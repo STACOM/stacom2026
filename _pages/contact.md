@@ -5,7 +5,7 @@ permalink: /contact/
 classes:
   - wide
 header:
-  image: /images/abu_dhabi_05.jpg
+  image: /images/strasbourg_05.jpg
 ---
 
 1. Alistair Young, King's College London, United Kingdom
