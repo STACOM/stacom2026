@@ -163,7 +163,7 @@ defaults:
       sidebar:
         - nav: keydates
         - nav: sidelinks
-        - image: images/miccai2026.png
+        - image: /images/miccai2026.png
           url: https://conferences.miccai.org/2026/en/
           new_target: true
 

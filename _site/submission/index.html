@@ -81,12 +81,248 @@
 
 
 
-    <!-- start custom head snippets -->
+    <style>
+/* ── Masthead: slim + frosted glass ── */
 
-<!-- insert favicons. use https://realfavicongenerator.net/ -->
 
-<!-- end custom head snippets -->
 
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+}
+
+.hero-tagline {
+  font-size: 1em;
+  color: rgba(255,255,255,0.85);
+  text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+  margin-top: 0;
+  font-weight: 400;
+}
+
+/* 1. Reduce the top padding of the main content area */
+.page__content {
+  margin-top: 0 !important;
+  padding-top: 0.5em !important; /* Adjust this value to get it perfect */
+}
+
+/* 2. Remove the top margin of the first H2 heading */
+.page__content h2:first-of-type {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* ── Main content: remove justify, improve reading ── */
+.page__content p {
+  text-align: justify !important;
+  font-size: 0.95em;
+  line-height: 1.75;
+  color: #333;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.01em; /* Slight spacing helps justification legibility */
+}
+
+.coming-soon-block {
+  background: #f7f9fc;
+  border: 0.5px solid #c8d8f0;
+  border-radius: 10px;
+  padding: 32px;
+  text-align: center;
+  margin: 24px 0;
+}
+.coming-soon-block .cs-title {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #1a2340;
+  margin-bottom: 8px;
+}
+.coming-soon-block .cs-sub {
+  font-size: 0.88em;
+  color: #666;
+}
+
+/* ── Sidebar headings ── */
+.nav__list .nav__sub-title {
+  font-size: 0.7em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: #1a2340;
+  border-bottom: 1.5px solid #dde4ed;
+  padding-bottom: 5px;
+  margin-bottom: 8px;
+}
+.nav__list .nav__items li a {
+  font-size: 0.8em;
+  padding: 2px 0;
+  color: #555 !important;
+  display: block;
+}
+.nav__list .nav__items li a[href="#"],
+.nav__list .nav__items li a[href=""] {
+  pointer-events: none;
+  color: #bbb !important;
+  font-style: italic;
+}
+.nav__list .nav__items li a[href*="miccai.org"] {
+  color: #185fa5 !important;
+  font-weight: 600;
+  font-style: normal;
+  pointer-events: auto;
+}
+
+.page__hero--overlay .page__title {
+  font-size: 2.6em !important;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em; /* Tightens text for a premium look */
+  text-shadow: 0 2px 8px rgba(0,0,0,0.5) !important;
+  margin-bottom: 0.3em !important;
+}
+
+.page__hero--overlay {
+  min-height: 400px;
+  padding: 120px 0 70px !important;
+  background-position: center 30% !important;
+}
+
+.page__hero--overlay::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 140px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.35) 0%, transparent 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+.page__hero--overlay .wrapper { position: relative; z-index: 2; }
+
+
+.masthead {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07) !important;
+
+  /* Ensure the blur only applies to the main wrapper */  
+  background: rgba(255, 255, 255, 0.05) !important; /* Very slight tint for legibility */
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+
+  /* The Subtle Transition */
+  -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  
+
+}
+
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav {
+  background: rgba(255, 255, 255, 0.3) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  box-shadow: none !important;
+}
+
+.masthead__inner-wrap {
+  padding-top: 10px !important;
+  padding-bottom: 30px !important;
+}
+
+.site-subtitle { font-size: 0.62em !important; }
+
+
+.site-title {
+/* Hide the existing text */
+  font-size: 0 !important;
+  line-height: 0 !important;
+  
+  /* Create the container for the logo */
+  display: inline-block !important;
+  width: 320px;  /* Slightly wider for the MICCAI logo */
+  height: 80px;  /* Adjust height to fit the nav bar */
+
+  /* Link the image */
+  background: url("./images/miccai2026.png") no-repeat center left !important;
+  background-size: contain !important;
+  
+  /* REMOVED the filter so it shows in full color */
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+
+/* Remove background from all potential containers in the header */
+.masthead, 
+.masthead__inner-wrap, 
+.greedy-nav, 
+.greedy-nav .visible-links li, 
+.greedy-nav .visible-links a {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.greedy-nav a {
+  color: #fff !important;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+/* ── Completely wipe out navigation blocks ── */
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav,
+.greedy-nav .visible-links,
+.greedy-nav .visible-links li,
+.greedy-nav .visible-links a,
+.greedy-nav .hidden-links,
+.greedy-nav button {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+
+/* ── Force text to stay white and remove underline ── */
+.greedy-nav .visible-links a,
+.site-title a,
+.site-subtitle {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+/* ── Handle Hover State (so blocks don't reappear when mousing over) ── */
+.greedy-nav .visible-links a:hover,
+.greedy-nav button:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important; /* Subtle frosted look on hover */
+  color: #ffffff !important;
+}
+
+/* ── Sidebar: narrower ── */
+.sidebar.sticky {
+  width: 180px !important;
+  min-width: 0 !important;
+}
+
+/* ── Main content: readable size, left-aligned ── */
+.page__content p,
+.page__content li {
+  font-size: 0.88em !important;
+  line-height: 1.7 !important;
+  text-align: left !important;
+}
+
+/* ── Footer ── */
+.page__footer {
+  background: #1a2340 !important;
+  color: #7a9cbf !important;
+}
+.page__footer a { color: #9fbae8 !important; }
+.page__footer-copyright { color: #7a9cbf !important; }
+</style>
   </head>
 
   <body class="layout--single wide">
@@ -146,12 +382,28 @@
 
 
 
-<div class="page__hero"
-  style=" background-image: url('');"
+<div class="page__hero--overlay"
+  style="background-color: #1a2340; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/stacom2026/images/strasbourg_04.jpg');"
 >
   
-    <img src="/stacom2026/images/strasbourg_04.jpg" alt="Submission" class="page__hero-image">
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Submission
+
+        
+      </h1>
+      
+      
+
+
+      
+      
+    </div>
   
+  
+    <span class="page__hero-caption">
+</span>
   
 </div>
 
@@ -210,17 +462,17 @@
         
         <ul>
           
-            <li><a href="">TBA - Abstract / placeholder</a></li>
+            <li><a href="">TBA — Abstract deadline</a></li>
           
-            <li><a href="">TBA - Paper submission</a></li>
+            <li><a href="">TBA — Paper submission</a></li>
           
-            <li><a href="">TBA - Notification</a></li>
+            <li><a href="">TBA — Notification</a></li>
           
-            <li><a href="">TBA - Workshop ready paper</a></li>
+            <li><a href="">TBA — Camera-ready paper</a></li>
           
-            <li><a href="">TBA - STACOM workshop</a></li>
+            <li><a href="https://conferences.miccai.org/2026/en/">1 Oct 2026 — STACOM workshop</a></li>
           
-            <li><a href="">TBA - Proceeding ready paper</a></li>
+            <li><a href="">TBA — Proceedings deadline</a></li>
           
         </ul>
         
@@ -229,6 +481,18 @@
   </ul>
 </nav>
 
+      
+    
+      
+        
+        <img src="/stacom2026/images/miccai2026.png" 
+             alt="MICCAI 2026">
+        
+        
+      
+      
+      
+      
       
     
       
@@ -252,7 +516,11 @@
           
             <li><a href="https://stacom.github.io/">Previous STACOMs</a></li>
           
-            <li><a href="">Submission portal</a></li>
+            <li><a href="/stacom2026/">Submission portal</a></li>
+          
+            <li><a href="https://echorisk-miccai.github.io/">EchoRisk Challenge</a></li>
+          
+            <li><a href="https://cmrxrecon.github.io/2026/">CMRxRecon2026 Challenge</a></li>
           
         </ul>
         
@@ -261,18 +529,6 @@
   </ul>
 </nav>
 
-      
-    
-      
-        <a href="https://conferences.miccai.org/2026/en/" target="_blank">
-        <img src="/stacom2026/images/miccai2026.png" 
-             alt="">
-        </a>
-        
-      
-      
-      
-      
       
     
     
@@ -289,43 +545,188 @@
 
     <div class="page__inner-wrap">
       
-        <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Submission
-</h1>
-          
-
-
-        </header>
-      
 
       <section class="page__content" itemprop="text">
         
-        <p>We accept regular papers describing new methods in the following (not limited) topics:</p>
+        <style>
 
-<ul>
-  <li>Statistical analysis of cardiac morphology and morphodynamics</li>
-  <li>Computational modeling and simulation of the heart and the great vessels</li>
-  <li>Personalisation of cardiac model, electrophysiology and mechanics</li>
-  <li>Quantitative cardiac image analysis</li>
-  <li>Sharing and reusing cardiac model repository</li>
-  <li>Translational studies of cardiac image analysis in clinical practice</li>
+.site-title {
+/* Hide the existing text */
+  font-size: 0 !important;
+  line-height: 0 !important;
+  
+  /* Create the container for the logo */
+  display: inline-block !important;
+  width: 320px;  /* Slightly wider for the MICCAI logo */
+  height: 80px;  /* Adjust height to fit the nav bar */
+  
+  /* Link the image */
+  background: url("../images/miccai2026.png") no-repeat center left !important;
+  background-size: contain !important;
+  
+  /* REMOVED the filter so it shows in full color */
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+/* ── Narrow sidebar ── */
+.sidebar.sticky {
+  width: 200px !important;
+  min-width: 200px !important;
+}
+
+.topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+  margin: 20px 0 32px;
+}
+.topic-card {
+  background: #fff;
+  border: 0.5px solid #e0e4ea;
+  border-left: 3px solid #185fa5;
+  border-radius: 0 8px 8px 0;
+  padding: 12px 16px;
+  font-size: 0.88em;
+  color: #333;
+  line-height: 1.5;
+}
+.section-eyebrow {
+  font-size: 0.7em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #185fa5;
+  margin: 0 0 4px !important;
+}
+
+.rules-list {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 28px;
+}
+.rules-list li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 10px 0;
+  border-bottom: 0.5px solid #f0f0f0;
+  font-size: 0.88em;
+  color: #333;
+  line-height: 1.5;
+}
+.rules-list li:last-child { border-bottom: none; }
+.rule-num {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #e6f1fb;
+  color: #185fa5;
+  font-size: 0.75em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+}
+
+.submission-rules {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.submission-rules li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 14px;
+  font-size: 0.92em;
+  line-height: 1.6;
+  color: #444;
+  /* Ensures natural word spacing even inside flex containers */
+  justify-content: flex-start; 
+}
+
+.submission-rules .badge {
+  background: #f0f4f8;
+  color: #185fa5;
+  font-weight: 700;
+  font-size: 0.75em;
+  min-width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px; /* Creates consistent space after the number */
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+/* Ensure bold text and links don't have artificial extra margins */
+.submission-rules strong, 
+.submission-rules a {
+  margin: 0 4px; /* Natural spacing around special elements */
+  display: inline;
+}
+
+.submission-rules a {
+  color: #185fa5;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+
+</style>
+
+<h2 id="scope">Scope</h2>
+
+<p>We accept regular papers describing new methods in the following (not limited) topics:</p>
+
+<div class="topic-grid">
+  <div class="topic-card">Statistical analysis of cardiac morphology and morphodynamics</div>
+  <div class="topic-card">Computational modeling and simulation of the heart and great vessels</div>
+  <div class="topic-card">Personalisation of cardiac model, electrophysiology and mechanics</div>
+  <div class="topic-card">Quantitative cardiac image analysis</div>
+  <div class="topic-card">Sharing and reusing cardiac model repositories</div>
+  <div class="topic-card">Translational studies of cardiac image analysis in clinical practice</div>
+</div>
+
+<h2 id="submission-guidelines">Submission guidelines</h2>
+
+<ul class="submission-rules">
+  <li><span class="badge">1</span> Papers are limited to <strong>8 pages</strong> (text, tables, figures) + up to 2 pages for references.</li>
+  <li><span class="badge">2</span> Initial submissions must be <strong>anonymised</strong>. Author names and affiliations are added in the final version.</li>
+  <li><span class="badge">3</span> Use the official <a href="http://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines" target="_blank">LNCS templates and guidelines</a>.</li>
+  <li><span class="badge">4</span> Camera-ready (proceeding) versions of accepted papers may be up to <strong>12 pages</strong>.</li>
+  <li><span class="badge">5</span> Supplementary materials (video, animations) may be submitted as a single <strong>ZIP file</strong>.</li>
+  <li><span class="badge">6</span> Selected papers will be published in a Lecture Notes in Computer Science proceeding published by Springer.</li>
 </ul>
 
-<p class="notice--info">COMING SOON</p>
+<h2 id="submission-portal">Submission portal</h2>
 
-<!-- 
-The STACOM 2024 workshop will accept 8-page papers (LNCS-Springer format) as regular submissions or challenges. General rules for the submission:
+<div class="coming-soon-block">
+  <div class="cs-title">Submission portal opening soon</div>
+  <div class="cs-sub">The submission portal will be announced here once key dates are confirmed.<br />Questions? Contact us at <a href="mailto:stacom@inria.fr">stacom@inria.fr</a></div>
+</div>
 
-1. Initial submission must be anonymised and limited to 8 pages (text, tables, and figures) + up to 2 pages for references only.
-2. Use the [LNCS templates/guidelines](http://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines).
-3. Workshop and proceeding versions of accepted papers should include authors’ names & affiliations and can be up to 12 pages.
-4. You can also submit supplementary materials (video, animations) by using a single zip file.
+<script>
+(function() {
+  var title = document.querySelector('.page__hero--overlay .page__title');
+  if (title) {
+    // 1. Change the main text to STACOM 2026
+    title.innerHTML = 'STACOM 2026';
+    
+    // 2. Create and inject the tagline
+    var tag = document.createElement('p');
+    tag.className = 'hero-tagline';
+    tag.innerHTML = '17th edition &nbsp;&middot;&nbsp; Submission';
+    title.parentNode.insertBefore(tag, title.nextSibling);
+  }
+})();
+</script>
 
-Selected papers will be published in a Lecture Notes in Computer Science proceeding published by Springer (see [previous STACOM proceedings](http://stacom.cardiacatlas.org/)).
-
-
-<div style="text-align: center;"><a href="https://equinocs.springernature.com/service/STACOM2024" target="_blank" class="btn btn--info btn--large" style="margin-top: 50px; padding-left: 50px; padding-right: 50px;">Go to the Submission Portal</a></div>
- -->
 
         
       </section>
