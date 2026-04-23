@@ -247,7 +247,7 @@ The **Statistical Atlases and Computational Modeling of the Heart (STACOM)** wor
   if (title) {
     var tag = document.createElement('p');
     tag.className = 'hero-tagline';
-    tag.innerHTML = '17th edition &nbsp;&middot;&nbsp; 1 October 2026 &nbsp;&middot;&nbsp; Strasbourg, France';
+    tag.innerHTML = '17th edition &nbsp;&middot;&nbsp; 27 September 2026 &nbsp;&middot;&nbsp; Strasbourg, France';
     title.parentNode.insertBefore(tag, title.nextSibling);
   }
 })();
