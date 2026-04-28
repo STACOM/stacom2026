@@ -224,6 +224,10 @@ body {
 
 The **Statistical Atlases and Computational Modeling of the Heart (STACOM)** workshop has been running annually at MICCAI since 2010. The 17th edition will be held in conjunction with [MICCAI 2026](https://conferences.miccai.org/2026/en/) in Strasbourg, France — bringing together researchers (engineers, biophysicists, mathematicians) and clinicians working on statistical analysis of cardiac morphology and dynamics, computational modelling of the heart and fluid dynamics, data/models sharing, personalisation of cardiac electro-mechanical models, quantitative image analysis and translational methods into clinical practice.
 
+### Keynote speaker
+
+{% include Hyun %}
+
 ## Challenge Partners
 
 <div class="challenge-grid">
