@@ -10,7 +10,7 @@ header:
   caption: ""
 sidebar:
   - nav: "keydates"
-  - image: "/images/miccai2026-logo-france.png"
+  - image: "/images/miccai2026.png"
     image_alt: "MICCAI 2026"
     image_caption: "[MICCAI 2026](https://conferences.miccai.org/2026/en/)"
   - nav: "sidelinks"
@@ -96,8 +96,8 @@ body {
 .nav__list .nav__items li a[href="#"],
 .nav__list .nav__items li a[href=""] {
   pointer-events: none;
-  color: #bbb !important;
-  font-style: italic;
+  color: #363535 !important;
+  font-style: normal;
 }
 .nav__list .nav__items li a[href*="miccai.org"] {
   color: #185fa5 !important;
