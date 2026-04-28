@@ -12,7 +12,7 @@ header:
   caption: ""
 sidebar:
   - nav: "keydates"
-  - image: "/images/miccai2026.png"
+  - image: "/images/miccai2026-logo-france.png"
     image_alt: "MICCAI 2026"
     image_caption: "[MICCAI 2026](https://conferences.miccai.org/2026/en/)"
   - nav: "sidelinks"
@@ -33,7 +33,7 @@ sidebar:
   height: 80px;  /* Adjust height to fit the nav bar */
   
   /* Link the image */
-  background: url("../images/miccai2026.png") no-repeat center left !important;
+  background: url("../images/miccai2026-logo-france.png") no-repeat center left !important;
   background-size: contain !important;
   
   /* REMOVED the filter so it shows in full color */

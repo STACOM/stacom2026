@@ -10,7 +10,7 @@ header:
   caption: ""
 sidebar:
   - nav: "keydates"
-  - image: "/images/miccai2026.png"
+  - image: "/images/miccai2026-logo-france.png"
     image_alt: "MICCAI 2026"
     image_caption: "[MICCAI 2026](https://conferences.miccai.org/2026/en/)"
   - nav: "sidelinks"
