@@ -177,10 +177,9 @@ We accept regular papers describing new methods in the following (not limited) t
 
 ## Submission portal
 
-<div class="coming-soon-block">
-  <div class="cs-title">Submission portal opening soon</div>
-  <div class="cs-sub">The submission portal will be announced here once key dates are confirmed.<br>Questions? Contact us at <a href="mailto:stacom@inria.fr">stacom@inria.fr</a></div>
-</div>
+[Submit your paper →](https://openreview.net/group?id=MICCAI.org/2026/Workshop/STACOM&referrer=%5BHomepage%5D(%2F)#tab-your-consoles){: .btn .btn--primary .btn--large}
+
+Questions? Contact us at <a href="mailto:stacom@inria.fr">stacom@inria.fr</a>
 
 
 <script>

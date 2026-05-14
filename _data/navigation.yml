@@ -15,7 +15,6 @@ main:
 keydates:
   - title: "Key dates"
     children:
-      - title: "Abstract Placeholder: 18 June 2026"
       - title: "Full paper deadline: 1 July 2026"
       - title: "Reviews due: 23 July 2026"
       - title: "Notification of Acceptance: 31 July 2026"
@@ -30,7 +29,7 @@ sidelinks:
       - title: "Previous STACOMs"
         url: https://stacom.github.io/
       - title: "Submission portal"
-        url: "#"
+        url: "https://openreview.net/group?id=MICCAI.org/2026/Workshop/STACOM&referrer=%5BHomepage%5D(%2F)#tab-recent-activity"
       - title: "EchoRisk Challenge"
         url: https://echorisk-miccai.github.io/
       - title: "CMRxRecon2026 Challenge"
