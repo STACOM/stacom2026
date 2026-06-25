@@ -15,10 +15,11 @@ main:
 keydates:
   - title: "Key dates"
     children:
-      - title: "Full paper deadline: 1 July 2026"
-      - title: "Reviews due: 23 July 2026"
-      - title: "Notification of Acceptance: 31 July 2026"
-      - title: "Proceedings Ready Papers: 27 Aug 2026"
+      - title: "Full paper deadline: 7 July 2026"
+      - title: "Reviews due: 21 July 2026"
+      - title: "Notification of Acceptance; Reviews available to authors: 30 July 2026"
+      - title: "Submission deadline for revised/camera-ready papers & copyright forms: 13 Aug 2026"
+      - title: "Submission of all material to MICCAI 2026 SE committee: 27 Aug 2026"
       - title: "Workshop: 27 Sept 2026"
         url: https://conferences.miccai.org/2026/en/
 
