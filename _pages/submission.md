@@ -168,12 +168,33 @@ We accept regular papers describing new methods in the following (not limited) t
 
 <ul class="submission-rules">
   <li><span class="badge">1</span> Papers are limited to <strong>8 pages</strong> (text, tables, figures) + up to 2 pages for references.</li>
-  <li><span class="badge">2</span> Initial submissions must be <strong>anonymised</strong>. Author names and affiliations are added in the final version.</li>
+  <li><span class="badge">2</span> Initial submissions must be anonymised. Author names and affiliations are added in the final version.</li>
   <li><span class="badge">3</span> Use the official <a href="http://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines" target="_blank">LNCS templates and guidelines</a>.</li>
   <li><span class="badge">4</span> Camera-ready (proceeding) versions of accepted papers may be up to <strong>12 pages</strong>.</li>
   <li><span class="badge">5</span> Supplementary materials (video, animations) may be submitted as a single <strong>ZIP file</strong>.</li>
   <li><span class="badge">6</span> Selected papers will be published in a Lecture Notes in Computer Science proceeding published by Springer.</li>
 </ul>
+
+## Camera-ready guidelines
+
+Please follow the following steps to upload your camera-ready paper:
+
+<ol>
+  <li><strong>De-anonymize</strong> your paper (authors in the same order as in OpenReview), include a <strong>Disclosure of Interests</strong> section, and additionaly you can include Acknowledgements.</li>
+  <li>Download the License-to-Publish form, fill and sign it by the corresponding author (do not edit the pre-filled information), and export to a PDF file with a filename <strong>STACOM_XX_LTP.pdf</strong>, were XX is your OpenReview paper ID.</li>
+  <li>Include source files:
+    <ul>
+      <li>For Microsoft Word, please include the source file with the name <strong>STACOM_XX_source.docx</strong>.</li>
+      <li>For LaTeX, please include a zip file named <strong>STACOM_XX_source.zip</strong>, containing the *.tex files for the manuscript text, files used for figures (.ps/.eps/.jpg/.pdf/.png), your bibTex file (.bib) if using bibTex for references, any additional style files and fonts you used, together with your source files that are not generally available at CTAN. Feel free to remove files that are not essential to compile your PDF paper.</li>
+    </ul>
+  </li>
+  <li>Place all files in a single folder named <strong>STACOM_XX.zip</strong>.</li>
+  <li>Submit STACOM_XX.zip file via the Revision option on your paper's OpenReview page:<br/><pre>author console ➡️ submission ➡️ edit ➡️ revision ➡️ upload</pre></li>
+</ol>
+
+Please note that we will inform you later regarding poster or oral presentation. We would like to remind you, that <strong>at least one author needs to register for physical, on-site participation</strong> in order to present your work in person.
+
+An open-access version of all accepted papers from STACOM 2026 will be made available on the MICCAI Society website no earlier than one week before the first day of the conference. Authors intending to file patents are responsible for ensuring that all necessary filings are completed prior to this public release.
 
 ## Submission portal
 
