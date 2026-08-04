@@ -148,6 +148,17 @@ sidebar:
   text-underline-offset: 3px;
 }
 
+.download-text {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: #185fa5;
+  color: #f5f9ff;
+  transition:background-color .2s;
+}
+
 
 </style>
 
@@ -181,7 +192,9 @@ Please follow the following steps to upload your camera-ready paper:
 
 <ol>
   <li><strong>De-anonymize</strong> your paper (authors in the same order as in OpenReview), include a <strong>Disclosure of Interests</strong> section, and additionaly you can include Acknowledgements.</li>
-  <li>Download the License-to-Publish form, fill and sign it by the corresponding author (do not edit the pre-filled information), and export to a PDF file with a filename <strong>STACOM_XX_LTP.pdf</strong>, were XX is your OpenReview paper ID.</li>
+  <li>Download the
+  
+  <a href="https://github.com/STACOM/stacom2026/raw/44df112a2542967fa502443d8ee5ac432378899b/files/SNCS_ProceedingsPaper_LTP_ST_SN_Switzerland_prefilled.docx" class="download-text" onmouseover="this.style.backgroundColor='#1557b0'" onmouseout="this.style.backgroundColor='#1e6bd6'">License-to-Publish 📝</a> form, fill and sign it by the corresponding author (do not edit the pre-filled information), and export to a PDF file with a filename <strong>STACOM_XX_LTP.pdf</strong>, were XX is your OpenReview paper ID.</li>
   <li>Include source files:
     <ul>
       <li>For Microsoft Word, please include the source file with the name <strong>STACOM_XX_source.docx</strong>.</li>
