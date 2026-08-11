@@ -177,14 +177,14 @@ We accept regular papers describing new methods in the following (not limited) t
 
 ## Submission guidelines
 
-<ul class="submission-rules">
-  <li><span class="badge">1</span> Papers are limited to <strong>8 pages</strong> (text, tables, figures) + up to 2 pages for references.</li>
-  <li><span class="badge">2</span> Initial submissions must be anonymised. Author names and affiliations are added in the final version.</li>
-  <li><span class="badge">3</span> Use the official <a href="http://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines" target="_blank">LNCS templates and guidelines</a>.</li>
-  <li><span class="badge">4</span> Camera-ready (proceeding) versions of accepted papers may be up to <strong>12 pages</strong>.</li>
-  <li><span class="badge">5</span> Supplementary materials (video, animations) may be submitted as a single <strong>ZIP file</strong>.</li>
-  <li><span class="badge">6</span> Selected papers will be published in a Lecture Notes in Computer Science proceeding published by Springer.</li>
-</ul>
+<ol>
+  <li>Papers are limited to <strong>8 pages</strong> (text, tables, figures) + up to 2 pages for references.</li>
+  <li>Initial submissions must be anonymised. Author names and affiliations are added in the final version.</li>
+  <li>Use the official <a href="http://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines" target="_blank">LNCS templates and guidelines</a>.</li>
+  <li>Camera-ready (proceeding) versions of accepted papers may be up to <strong>11.5 pages</strong> (total including reference) to accommodate any minor changes for the camera-ready version. This is to ensure that any additional content that Springer may add to link to supplementary material, if appropriate, will not exceed the 12-page limit.</li>
+  <li>Supplementary materials (video, animations) may be submitted as a single <strong>ZIP file</strong>.</li>
+  <li>Selected papers will be published in a Lecture Notes in Computer Science proceeding published by Springer.</li>
+</ol>
 
 ## Camera-ready guidelines
 
