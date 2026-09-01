@@ -1,3 +1,67 @@
 {: .notice--info}
 
-COMING SOON
+**Location: Curie B**
+
+| 08:00-08:05 | Opening welcome |
+| 08:05-08:40 | **Keynote: Limited Resources, Unlimited Impact: Multimodal AI for Healthcare**<br>Chen (Cherise) Chen, University of Sheffield |
+| | **Oral Presentations** (5 min mini-talk, 3 min questions) |
+| 08:40-10:00 | Physiology-Aware Graph Attention for Early Ventricular Reentry Prediction |
+| | Physics-Informed Implicit Neural Representations for Improved Myocardial Perfusion MRI Quantification |
+| | Same Branches, Different Trees: A Bifurcation Connectedness Metric for Coronary Artery Segmentation and FFR-CT Decision Agreement |
+| | Continuous Volumetric Cardiac Motion Modelling for Analytical Derivatives from Cine MRI |
+| | Automated Detection and Shape Analysis of Mitral Valve Prolapse and Annular Disjunction in the UK Biobank |
+| | Beyond In-Distribution Metrics: A Systematic Out-of-Distribution Evaluation of Congenital Heart Disease Segmentation |
+| | MoE-based Feature Adapter for Prompt-free Binary Coronary Artery Segmentation in X-ray Angiography Videos |
+| | Conditional 3D Shape Synthesis of the Left Atrial Appendage via Discrete Latent Diffusion |
+| | Multi-Stage Vascular Deformation Mapping in Extracranial Carotid Aneurysms |
+| | GRC-ProbNet: Uncertainty-aware feature extraction for cardiovascular disease classification |
+| | A Neural Implicit Cardiac Atlas with Clinically Readable Subject Embeddings |
+| | Bi-PT: Bidirectional Cross-Attention Point Transformers for Four-Chamber Heart Reconstruction from Sparse Cardiac MRI Data |
+| 10:00-10:30 | *Coffee break* |
+| 10:30-10:40 | Sponsorship presentation: HeartFlow<br>*Esther Puyol-Antón* |
+| 10:40-11:15 | **Poster teasers** (1 min, 28 speakers) |
+| 11:15-12:15 | **Poster session** (see full list below) |
+| 12:15-12:30 | Closing remarks and Prizes |
+
+**Poster session — full list of accepted papers**
+
+1. FDW-Net: Frequency-Decoupled Wavelet Network for Atrial Segmentation in Cardiac MRI
+2. MR-JEPA: A General Purpose Video Foundation Model for Cardiac MRI
+3. Generative Brownian Bridge Diffusion In Motion Space For Enhanced Myocardial Strain Analysis
+4. No Image, No Problem: End-to-End Multi-Task Cardiac Analysis from Undersampled k-Space
+5. MoE-based Feature Adapter for Prompt-free Binary Coronary Artery Segmentation in X-ray Angiography Videos
+6. Conditional 3D Shape Synthesis of the Left Atrial Appendage via Discrete Latent Diffusion
+7. Learning from Acquisition: Metadata-driven Multimodal Pre-training for Cardiac MRI
+8. Cardiac MRI Through-Plane Super-Resolution Guided by Reference and Memory
+9. IVUS Plaque Characterization Descriptors Carry FFR Information Beyond Morphology in Borderline Lesions
+10. Silent Failures of Right-Ventricular Ejection Fraction at High Segmentation Overlap: Evidence from Multi-Vendor Cardiac MRI
+11. TSPFN: A Temporal Tabular Foundation Model for Physiological Time Series Classification
+12. Automated Reconstruction of Patient-Specific 3D Bi-Atrial Meshes from Sparse 2D Cine CMR
+13. Beyond Volume Overlap: Surface Matching for Topology-Aware Coronary Artery Segmentation
+14. TT3D: Triangular Transport for 3D Left Ventricle Reconstruction.
+15. Same Branches, Different Trees: A Bifurcation Connectedness Metric for Coronary Artery Segmentation and FFR-CT Decision Agreement
+16. Beyond the Left Atrium: Joint Generative Modeling of Bi-Atrial Anatomy
+17. Physics-Informed Implicit Neural Representations for Improved Myocardial Perfusion MRI Quantification
+18. ORION-CMR: On-scanner Reporting with Integrated Foundation Model for End-to-End Cardiac MRI Analysis and Interpretation
+19. Bi-PT: Bidirectional Cross-Attention Point Transformers for Four-Chamber Heart Reconstruction from Sparse Cardiac MRI Data
+20. ECG-Based Prediction of Patient-Specific Myocardial Conduction Velocity with Electroanatomical Mapping Supervision
+21. SynSeq: End-to-End SYNTAX Score Prediction from Coronary Angiography Videos
+22. GeodVessel: A Geodesic Cost-Map Framework for Refining Coronary Vessel Connectivity
+23. Physiology-Aware Graph Attention for Early Ventricular Reentry Prediction
+24. 3D Left Ventricular Modelling and Quantification from 2D Echocardiography Using Automated View Positioning
+25. Beyond MSE: Rician Likelihood Denoising for Self-Supervised Cardiac T2 and T1ρ MRI
+26. A Neural Implicit Cardiac Atlas with Clinically Readable Subject Embeddings
+27. GRC-ProbNet: Uncertainty-aware feature extraction for cardiovascular disease classification
+28. Integrated CT-derived left atrial digital twins reveal complementary thrombogenic and arrhythmogenic substrates in atrial fibrillation
+29. Multi-Stage Vascular Deformation Mapping in Extracranial Carotid Aneurysms
+30. Myocardial Strain Drift Correction in Deep Learning Based Ultrasound Tracking
+31. MyoUV: Learning Canonical UV Surface Fields for Sparse SAX Myocardial Reconstruction
+32. Uncertainty Quantification in Cardiac Model Personalisation from Ultrafast Ultrasound
+33. Cardiac Shape-Derived Endophenotypes and Covariant Correction using Statistical Motion Atlases
+34. ViPS-FSL: Virtual-Patient Densification via Latent Space Co-Translation for Robust Few-Shot Cardiac MRI Segmentation
+35. Beyond In-Distribution Metrics: A Systematic Out-of-Distribution Evaluation of Congenital Heart Disease Segmentation
+36. Spatiotemporal Distillation via Recurrent Bottlenecks for Aortic Tracking
+37. Automated Detection and Shape Analysis of Mitral Valve Prolapse and Annular Disjunction in the UK Biobank
+38. Characterising cardiac tissue properties with graph neural networks
+39. Deep Learning Helix Angle Estimation via Rule-based Pre-training and cDTI Fine-tuning
+40. Continuous Volumetric Cardiac Motion Modelling for Analytical Derivatives from Cine MRI
