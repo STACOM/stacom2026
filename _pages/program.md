@@ -242,7 +242,7 @@ sidebar:
 
   <div class="schedule-row">
     <div class="schedule-time">10:00–10:30</div>
-    <div class="schedule-content"><p class="schedule-title">☕ Coffee break</p></div>
+    <div class="schedule-content"><p class="schedule-title">Coffee break</p></div>
   </div>
   <div class="schedule-row">
     <div class="schedule-time">10:30–10:40</div>
@@ -261,11 +261,13 @@ sidebar:
   </div>
   <div class="schedule-row">
     <div class="schedule-time">12:15–12:30</div>
-    <div class="schedule-content"><p class="schedule-title">🏆 Closing remarks and Prizes</p></div>
+    <div class="schedule-content"><p class="schedule-title">Closing remarks and Prizes</p></div>
   </div>
 </div>
 
 ### Poster session — full list of accepted papers
+
+Your printed poster must be in PORTRAIT format and not exceed A0 size
 
 <div class="poster-grid">
 <div class="poster-item"><span class="poster-num">1</span><span class="poster-title">FDW-Net: Frequency-Decoupled Wavelet Network for Atrial Segmentation in Cardiac MRI</span></div>
