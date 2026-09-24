@@ -200,6 +200,12 @@ sidebar:
 
 ## Program
 
+Please send your poster teasers to Rasmus at rapa@dtu.dk in PowerPoint format. The teasers will be collated and run by Rasmus on his computer.
+
+You have maximum 60 seconds for your teaser and we will stop you if you run over time.
+
+The goal of the poster teaser is to make people want to come and see your poster. The goal of the teaser is not to go into detailed explanations about methods and results. 
+
 <div class="program-meta">
   <div class="program-meta-item">📍 <strong>Location:</strong>&nbsp;Curie B</div>
 </div>
@@ -267,7 +273,7 @@ sidebar:
 
 ### Poster session — full list of accepted papers
 
-Your printed poster must be in PORTRAIT format and not exceed A0 size
+Your printed poster must be in PORTRAIT format and not exceed A0 size. 
 
 <div class="poster-grid">
 <div class="poster-item"><span class="poster-num">1</span><span class="poster-title">FDW-Net: Frequency-Decoupled Wavelet Network for Atrial Segmentation in Cardiac MRI</span></div>
