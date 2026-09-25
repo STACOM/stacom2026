@@ -206,6 +206,8 @@ You have maximum 60 seconds for your teaser and we will stop you if you run over
 
 The goal of the poster teaser is to make people want to come and see your poster. The goal of the teaser is not to go into detailed explanations about methods and results. 
 
+Please put your poster up in the order given on the website
+
 <div class="program-meta">
   <div class="program-meta-item">📍 <strong>Location:</strong>&nbsp;Curie B</div>
 </div>
