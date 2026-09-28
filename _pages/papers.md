@@ -208,7 +208,7 @@ sidebar:
 
 </style>
 
-## Regular papers
+[Accepted papers camera-ready version are now available](https://papers.miccai.org/miccai-2026-sat/categories/){: .btn .btn--primary .btn--large}
 
 <div class="coming-soon-block">
   <div class="cs-sub">
