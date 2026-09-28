@@ -294,7 +294,7 @@ Congratulations to our award winners!
     <span class="challenge-tag">Best Oral Presentation</span>
     
     <h3>
-      <a href="https://echorisk-miccai.github.io/" target="_blank">Maame Owusu-Ansah</a>
+      Maame Owusu-Ansah
     </h3>
 
     <img src="images/Maame.jpg" alt="Maame Owusu-Ansah" class="challenge-img">
@@ -312,7 +312,7 @@ Congratulations to our award winners!
     <span class="challenge-tag">Best Poster Presentation</span>
     
     <h3>
-      <a href="https://echorisk-miccai.github.io/" target="_blank">Rishov Paul</a>
+      Rishov Paul
     </h3>
 
     <img src="images/Rishov.jpg" alt="Rishov Paul" class="challenge-img">
