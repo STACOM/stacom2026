@@ -724,11 +724,114 @@ body {
 .page__footer a { color: #9fbae8 !important; }
 .page__footer-copyright { color: #7a9cbf !important; }
 
+.challenge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.challenge-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 24px;
+  background-color: #ffffff;
+}
+
+.challenge-img {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 12px 0;
+}
+
+/* Citation Styling */
+.citation {
+  margin-top: 8px;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.paper-title {
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 6px;
+}
+
+.authors {
+  color: #4a5568;
+  margin-bottom: 4px;
+}
+
+.venue {
+  color: #718096;
+  font-size: 0.875rem;
+}
+
+/* Keeps the link pushed to the bottom of the card */
+.challenge-link {
+  margin-top: auto;
+  font-weight: 600;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.challenge-link:hover {
+  text-decoration: underline;
+}
 
 
 </style>
 
 <p>The <strong>Statistical Atlases and Computational Modeling of the Heart (STACOM)</strong> workshop has been running annually at MICCAI since 2010. The 17th edition will be held in conjunction with <a href="https://conferences.miccai.org/2026/en/">MICCAI 2026</a> in Strasbourg, France — bringing together researchers (engineers, biophysicists, mathematicians) and clinicians working on statistical analysis of cardiac morphology and dynamics, computational modelling of the heart and fluid dynamics, data/models sharing, personalisation of cardiac electro-mechanical models, quantitative image analysis and translational methods into clinical practice.</p>
+
+<h3 id="awards">Awards</h3>
+<p>Congratulations to our award winners!</p>
+
+<div class="challenge-grid">
+
+  <!-- Card 1 -->
+  <div class="challenge-card">
+    <span class="challenge-tag">Best Oral Presentation</span>
+    
+    <h3>
+      <a href="https://echorisk-miccai.github.io/" target="_blank">Maame Owusu-Ansah</a>
+    </h3>
+
+    <img src="images/Maame.jpg" alt="Maame Owusu-Ansah" class="challenge-img" />
+
+    <div class="citation">
+      <p class="paper-title">"Same Branches, Different Trees: A Bifurcation Connectedness Metric for Coronary Artery Segmentation and FFR-CT Decision Agreement."</p>
+      <p class="authors">M. Owusu-Ansah, K. Lee, V. Venugopal, M. Jawaid, W. Duan, and J. Brown.</p>
+    </div>
+
+    <a href="https://papers.miccai.org/miccai-2026-sat/paper/STACOM2026_015.pdf" target="_blank" class="challenge-link">Read paper →</a>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="challenge-card">
+    <span class="challenge-tag">Best Poster Presentation</span>
+    
+    <h3>
+      <a href="https://echorisk-miccai.github.io/" target="_blank">Rishov Paul</a>
+    </h3>
+
+    <img src="images/Rishov.jpg" alt="Rishov Paul" class="challenge-img" />
+
+    <div class="citation">
+      <p class="paper-title">"Generative Brownian Bridge Diffusion In Motion Space For Enhanced Myocardial Strain Analysis."</p>
+      <p class="authors">R. Paul, F. H. Epstein, and M. Zhang.</p>
+    </div>
+
+    <a href="https://papers.miccai.org/miccai-2026-sat/paper/STACOM2026_003.pdf" target="_blank" class="challenge-link">Read paper →</a>
+  </div>
+
+</div>
 
 <h3 id="keynote-speaker">Keynote speaker</h3>
 
